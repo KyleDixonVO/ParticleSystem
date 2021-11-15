@@ -5354,9 +5354,9 @@ ParticleSystem:
         m_RotationOrder: 4
     startSpeed:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 50.2
-      minScalar: 5
+      minScalar: 30
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -19854,6 +19854,7 @@ Transform:
   - {fileID: 926289537}
   - {fileID: 1190876275}
   - {fileID: 1305879698}
+  - {fileID: 2005368601}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25048,7 +25049,7 @@ GameObject:
   - component: {fileID: 2005368600}
   - component: {fileID: 2005368599}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: Main Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29892,9 +29893,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005368598}
   m_LocalRotation: {x: -0.5045143, y: 0.4954446, z: -0.4954447, w: 0.5045142}
-  m_LocalPosition: {x: 24.4, y: -0.35, z: 0.02}
+  m_LocalPosition: {x: 31.411041, y: -0.30755433, z: -2.2401824}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1052271786}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -1.039, y: 90, z: -90}
